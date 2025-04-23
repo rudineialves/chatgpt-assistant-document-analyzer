@@ -19,7 +19,7 @@
 
     //Id do assistente previamente configurado e treinado
     //Neste caso, o assistente está configurado para agir como um acessor júridico          
-    $assistant_id  = 'asst_6aioDc9ltT7hiJZ9PtetqFXD'; 
+    $assistant_id  = 'asst_xxxxxxxxxxxxxxxx'; 
     //Instruções para o assistente
     $instructions  = "Crie a seção dos fatos de uma petição inicial baseado nas informações seguintes \n";
 
