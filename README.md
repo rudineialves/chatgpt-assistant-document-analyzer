@@ -1,5 +1,13 @@
 # 🧠 ChatGPT Assistant Document Analyzer
 
+![PHP](https://img.shields.io/badge/language-PHP-blue?style=flat-square)
+![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue?style=flat-square)
+![ChatGPT Powered](https://img.shields.io/badge/powered%20by-ChatGPT-blueviolet?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/rudineialves/chatgpt-assistant-document-analyzer)
+![Repo Stars](https://img.shields.io/github/stars/rudineialves/chatgpt-assistant-document-analyzer?style=social)
+
+
 Este projeto é uma ferramenta PHP que permite interpretar documentos em **imagem** ou **texto** e, com auxílio de um assistente baseado no ChatGPT (via API da OpenAI), **gerar automaticamente a seção "Dos Fatos" de uma petição inicial jurídica**.
 
 ## 🚀 Funcionalidades
@@ -30,7 +38,7 @@ Este projeto é uma ferramenta PHP que permite interpretar documentos em **image
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/chatgpt-assistant-juridico.git
+   git clone https://github.com/rudineialves/chatgpt-assistant-document-analyzer.git
    ```
 
 2. **Configure a API Key da OpenAI**
