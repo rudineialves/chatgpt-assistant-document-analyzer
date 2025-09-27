@@ -34,7 +34,7 @@
         {
             if($attempts > 0){$chatGptAssistant->showMessage("<br><br>Reiniciando a Consulta - Tentativa ".($attempts+1));}
             
-            //Step 4: Envia os arquivos para o Assistente    
+            //Envia os arquivos para o Assistente    
             $file_ids = $chatGptAssistant->uploadFiles($valid_files);
             if(count($file_ids) < 1){ $chatGptAssistant->showMessage("<br>Os arquivos não puderam ser enviados!");}
             else {
@@ -71,3 +71,4 @@
     }
 
     $chatGptAssistant->showMessage("<br>[DONE]");
+
